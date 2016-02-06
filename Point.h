@@ -8,6 +8,7 @@ class Point {
     
 private:
     double x, y, z;
+    int q;
 
 public:
     // Constructors
