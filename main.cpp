@@ -13,7 +13,7 @@ using std::endl;
 using namespace Testing;
 
 int main() {
-    const int test;
+
 
     const int NumIters = 3;
 
