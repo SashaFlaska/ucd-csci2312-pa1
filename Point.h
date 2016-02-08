@@ -8,13 +8,13 @@ class Point {
     
 private:
     double x, y, z;
-    int q;
+
 
 public:
     // Constructors
     Point();                      // default constructor
     Point(double x, double y, double z);    // three-argument constructor
-
+    ~Point();
     // Mutator methods
     void setX(double newX);
     void setY(double newY);
@@ -24,6 +24,8 @@ public:
     double getX() const;
     double getY() const;
     double getZ() const;
+
+    double distanceTo(const Point& endPoint) const;
     
 };
 

@@ -12,8 +12,21 @@ using std::endl;
 
 using namespace Testing;
 
-int main() {
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <vector>
 
+#include "ErrorContext.h"
+#include "PointTests.h"
+
+using std::cout;
+using std::endl;
+
+using namespace Testing;
+
+int main()
+{
 
     const int NumIters = 3;
 
