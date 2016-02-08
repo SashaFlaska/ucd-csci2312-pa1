@@ -1,16 +1,4 @@
 // main.cpp
-#include <iostream>
-#include <fstream>
-#include <sstream>
-#include <vector>
-
-#include "ErrorContext.h"
-#include "PointTests.h"
-
-using std::cout;
-using std::endl;
-
-using namespace Testing;
 
 #include <iostream>
 #include <fstream>
