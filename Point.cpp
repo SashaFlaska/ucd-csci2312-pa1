@@ -60,9 +60,7 @@ double Point::distanceTo(const Point& endPoint) const
     double distance;
 
     // pythagorean with x y and z
-    distance = sqrt(pow((endPoint.getX() - x), 2)
-                    + pow((endPoint.getY() - y), 2)
-                    + pow((endPoint.getZ() - z), 2));
+    distance = sqrt(pow((endPoint.getX() - x), 2) + pow((endPoint.getY() - y), 2) + pow((endPoint.getZ() - z), 2));
 
     return distance;
 }
